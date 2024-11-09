@@ -15,6 +15,7 @@ public class HomeSteps {
     }
     @Then("The user sees the presence of logo,menu items")
     public void the_user_sees_the_presence_of_logo_menu_items() {
+        //to check logo
         Assert.assertTrue(homePage.logoPresent());
     }
 }
